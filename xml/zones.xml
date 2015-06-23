@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<zones>
+    <zone>
+        <x>190</x>
+        <y>200</y>
+        <radius>55</radius>
+    </zone>
+    <zone>
+        <x>100</x>
+        <y>280</y>
+        <radius>55</radius>
+    </zone>
+    <zone>
+        <x>700</x>
+        <y>420</y>
+        <radius>90</radius>
+    </zone>
+</zones>

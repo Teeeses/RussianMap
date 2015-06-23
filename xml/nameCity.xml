@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<city>
+    <town>
+        <x>133</x>
+        <y>303</y>
+        <name>Москва</name>
+    </town>
+    <town>
+        <x>112</x>
+        <y>233</y>
+        <name>Санкт-Петербург</name>
+    </town>
+    <town>
+        <x>204</x>
+        <y>196</y>
+        <name>Мурманск</name>
+    </town>
+    <town>
+        <x>743</x>
+        <y>436</y>
+        <name>Арсеньев</name>
+    </town>
+    <town>
+        <x>103</x>
+        <y>237</y>
+        <name>Гатчина</name>
+    </town>
+</city>
