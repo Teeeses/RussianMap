@@ -7,9 +7,10 @@ var xmlDocCity;
 var xmlDocZone;
 var xmlDocZoneImage;
 var boolAnimation = true;
+//массив изображений
 var array = [];
+//массив точек изображений
 var points = [];
-var city = document.getElementsByName("city");
 
 function init()
 {
@@ -59,6 +60,7 @@ function loadXML() {
     xmlDocZoneImage = xmlhttpZoneImage.responseXML;
 }
 
+//определение города
 function definitionOfCity(x, y)
 {
     var town = xmlDocCity.getElementsByTagName("town");
@@ -74,6 +76,7 @@ function definitionOfCity(x, y)
     
 }
 
+//определение зоны
 function definitionOfZone(x, y)
 {
     var zone = xmlDocZone.getElementsByTagName("zone");
@@ -100,6 +103,7 @@ function definitionOfZone(x, y)
     }
 }
 
+//рандомный выбор изображений для вывода их xml файла для определенной зоны
 function floatingImages(j)
 {
     var zoneImage = xmlDocZoneImage.getElementsByTagName("zone");
@@ -126,6 +130,7 @@ function floatingImages(j)
     outputImages();
 }
 
+//вывод изображений
 function outputImages()
 {
     if(boolAnimation)
@@ -154,11 +159,6 @@ function move(image, i)
 
 function writeCity(x, y, name)
 {
-    /*city.value = name;
-    city.x = x;
-    city.y = y - 5;
-    city.width = 120;
-    city.height = 30;*/
     context.clearRect(x - 20, y - 20, x + 120,  y + 20);
     context.font = '12pt Calibri';
     context.fillStyle = 'black';
